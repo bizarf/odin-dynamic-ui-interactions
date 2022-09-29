@@ -1,0 +1,57 @@
+@import url(./modern-normalize.css);
+
+div {
+    border: solid 1px;
+}
+
+.navMenu {
+    width: 20%;
+    height: 100%;
+    display: none;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navLinks {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    background-color: #dddddd;
+}
+
+.visible {
+    display: block;
+}
+
+.openNav {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.invisible {
+    display: none;
+}
+
+.closeNav {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeNav span {
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}

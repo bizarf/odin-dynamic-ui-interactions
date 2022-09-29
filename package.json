@@ -1,0 +1,26 @@
+{
+  "name": "odin-dynamic-ui-interactions",
+  "version": "1.0.0",
+  "description": "This is a small project to create three types of dynamic interactive UIs. A burger drop-down menu, a type of mobile nav menu, and an image slider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizarf/odin-dynamic-ui-interactions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizarf/odin-dynamic-ui-interactions/issues"
+  },
+  "homepage": "https://github.com/bizarf/odin-dynamic-ui-interactions#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
