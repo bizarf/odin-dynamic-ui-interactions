@@ -1,0 +1,44 @@
+@import url(./modern-normalize.css);
+@import url(./fontawesome.min.css);
+@import url(./solid.min.css);
+
+div {
+    border: solid 1px;
+}
+
+.container {
+    height: 100%;
+    width: 320px;
+}
+
+.content {
+    height: 300px;
+}
+
+.mobileNavBar {
+    display: flex;
+}
+
+.navButtons {
+    flex-grow: 1;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navSelected {
+    box-shadow: 0 -3px inset #1e293b;
+}
+
+#homeBtn,
+#videoBtn {
+    background-color: #cbd5e1;
+}
+
+#pictureBtn,
+#settingBtn {
+    background-color: #94a3b8;
+}

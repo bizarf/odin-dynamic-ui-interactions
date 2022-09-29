@@ -1,0 +1,97 @@
+@import url(./modern-normalize.css);
+@import url(./fontawesome.min.css);
+@import url(./solid.min.css);
+
+div {
+    border: 1px solid;
+}
+
+.imageContainer {
+    height: 184px;
+    width: 184px;
+    position: relative;
+}
+
+/* frame for the image */
+.slide {
+    width: 184px;
+    height: 184px;
+    display: flex;
+}
+
+/* hides all the images */
+.image {
+    display: none;
+}
+
+/* class that changes the current image on display */
+.active {
+    display: block;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* previous and next image controls */
+#previousImage,
+#nextImage {
+    font-size: 2em;
+    flex-grow: 1;
+    color: #94a3b8;
+}
+
+#previousImage:hover,
+#nextImage:hover {
+    background-color: #0f172a;
+    opacity: 0.7;
+}
+
+#previousImage {
+    position: absolute;
+    top: 40%;
+}
+
+#nextImage {
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+/* navigation dots */
+.navigationDots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    color: #a3a3a3;
+    padding: 0 10px;
+}
+
+.selected {
+    color: #404040;
+}
+
+/* slideshow controls */
+.playBtn,
+.stopBtn {
+    padding: 0 20px;
+    color: #94a3b8;
+}
+
+.slideshowControl {
+    display: flex;
+    justify-content: center;
+}
+
+.pressed {
+    color: #334155;
+}
